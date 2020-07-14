@@ -76,6 +76,10 @@ body {
   transform-origin: bottom center;
 }
 
+#player{
+    display: none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
