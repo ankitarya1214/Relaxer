@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Relaxer</title>
+  </head>
+  <body>
+    <h1>Relaxer</h1>
+
+    <audio id="player" controls volume="0.3" autoplay loop>
+    <source src="Relax.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+    var audio = document.getElementById("player");
+    audio.volume = 0.1;
+    </script>
+
+    <div class="container" id="container">
+      <div class="circle"></div>
+
+      <p id="text"></p>
+
+      <div class="pointer-container">
+        <span class="pointer"></span>
+      </div>
+
+      <div class="gradient-circle"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
