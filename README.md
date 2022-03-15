@@ -1,9 +1,8 @@
 ### Hi there 👋
 RELAXER APP
 
-Go to Code option and Download zip file.
-After downloading Extract the zip file and open index.html into your browser to open the website.
-if audio is not playing in the background then open in different browser.....
+A Website Guided breathing techniques. 
+The Main gaol is to Practice common breathing techniques using guided visualizations and Calming music for Deep Medidation, developed using JavaScript, HTML and CSS..
 <!--
 **ankitarya1214/ankitarya1214** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
