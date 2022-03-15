@@ -10,16 +10,14 @@
   <body>
     <h1>Relaxer</h1>
 
-    <audio id="player" controls autoplay loop>
-    <source src="Relax.mp3" type="audio/mp3">
+    <div class="audio">
+      <p id='music'>Do you want music?</p>
+      <audio src="Relax.mp3" id="player" type="audio/mpeg" controls loop></audio>
+    </div>
     </audio>
 
-    <script>
-    var audio = document.getElementById("player");
-    audio.volume = 0.7;
-    </script>
 
-    <div class="container" id="container">
+      <div class="container" id="container">
       <div class="circle"></div>
 
       <p id="text"></p>
