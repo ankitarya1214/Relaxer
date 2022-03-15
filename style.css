@@ -76,9 +76,20 @@ body {
   transform-origin: bottom center;
 }
 
-#player{
-    display: none;
+.audio:hover{
+  opacity: 0.6
 }
+
+.audio{
+  width: 300px;
+  display: grid;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  opacity: 0.2;
+  font-size: 15px;
+}
+
 
 @keyframes rotate {
   from {
